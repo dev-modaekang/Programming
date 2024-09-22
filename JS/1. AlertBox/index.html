@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--==============================
+        ## Selector ##
+    ================================== -->
+    <h3>1. Selector</h3>
+    <p>**print the different contents and styles using JS.</p>
+
+    <p> org message: Nice to meet you. <p>
+    <h2 id="hello"> Nice to meet you. </h2>
+    <p> org message: Good to se you </p>
+    <h2 id="hi"> Good to see you. </h2>
+    <br><hr>
+
+
+    <!--==============================
+        ## Color Alert Box ##
+    ================================== -->
+    <h3> 2. Alert Box </h3>
+    <p>** show the hided the color alert box using JS function when the user click the button </p>
+
+    <div class="alert-box-blue" id="alert-blue"> Blue Alert Box
+        <br><button onclick="AlertBoxBlue('none')">Close</button>
+    </div>
+    <button onclick="AlertBoxBlue('block')">Open - BlueBox</button> <!-- onclick = run the javascript code -->
+    <br><br>
+
+    <div class="alert-box-red" id="alert-red"> Red Alert Box
+        <br><button onclick="AlertBoxRed('none')">Close</button>
+    </div>
+    <button onclick="AlertBoxRed('block')">Open - RedBox</button>
+    <br><br>
+
+    <div class="alert-box-green" id="alert-green"> Green Alert Box 
+        <br><button onclick="AlertBoxGreen('none')">Close</button>
+    </div>
+    <button onclick="AlertBoxGreen('block')">Open - GreenBox</button>
+    <br><br>
+
+    <div class="alert-box-yellow" id="alert-yellow"> Yellow Alert Box 
+        <br><button onclick="AlertBoxYellow('none')">Close</button>
+    </div>
+    <button onclick="AlertBoxYellow('block')">Open - YellowBox</button>
+    <br><br><br><hr>
+
+
+    <!--==============================
+        ## Two Alert Boxes for ID and Password ##
+    ================================== -->
+    <h3>3. Alert Boxes for ID and Password</h3>
+    <p>** show the hided alert box with the specific message using JS function when the user click the button.</p>
+
+    <div class="alert-box1" id="alert-box1"> 
+        <p id="id1">Alert Box</p>
+        <br><button onclick="AlertBox('','none')">Close</button>
+    </div>
+
+    <button onclick="AlertBox('No ID. Please put the ID', 'block')">ID</button>
+    <button onclick="AlertBox('No Password. Please put the Password', 'block')">Password</button>
+    <br><br><br><hr>
+
+
+    <!--==============================
+        ## EventListener  ##
+    ================================== -->
+    
+    <h3>4. EventListner</h3>
+    <p>** use the EventListner instead of onclick event</p>
+
+    <div class="alert-box2" id="alert-box2"> 
+        <p id="id2">Alert Box</p>
+        <br><button id="Close">Close</button>
+    </div>
+
+    <button id="checkID">ID</button>
+    <button id="checkPW">Password</button>
+    <br><br><br><hr>
+
+
+    <!--==============================
+        ## jQuery  ##
+    ================================== -->
+    
+    <h3>5. jQuery</h3>
+    <p>** try to use jQuery</p>
+
+    <p id="test1"> org message: Hello</p>
+    <h3 id="test2"> Hello</h3>
+    <a id="test3"> Home</a>
+    <h4 id="test4"> yellow_bg</h4>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./main.js"> </script>
+    
+</body>
+</html>
+
+

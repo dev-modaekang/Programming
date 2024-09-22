@@ -1,0 +1,51 @@
+.alert-box1{
+    background-color: rgb(96, 139, 255);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+}
+
+.alert-box2{
+    background-color: rgb(96, 139, 255);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+}
+
+.alert-box-blue {
+    background-color: rgb(96, 139, 255);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+}
+
+.alert-box-red {
+    background-color: rgb(252, 130, 130);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+}
+
+.alert-box-green {
+    background-color: rgb(129, 255, 129);
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+}
+
+.alert-box-yellow {
+    background-color: rgb(255, 255, 168);
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+}
+
+.yellow-bg{
+    background-color: rgb(255, 255, 168);
+}
